@@ -14,8 +14,347 @@
   }
 }
 
+/* Aeonik TRIAL Font Faces */
+@font-face {
+  font-family: "Aeonik TRIAL";
+  src: url("./font/AeonikTRIAL-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Aeonik TRIAL";
+  src: url("./font/AeonikTRIAL-Light.otf") format("opentype");
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Aeonik TRIAL";
+  src: url("./font/AeonikTRIAL-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components{
+  .Link-manu-bar{
+    @apply text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px]
+  }
+  .Link-manu-bars {
+    @apply w-[35px] sm:w-[40px] md:w-[45px] lg:w-[50px] xl:w-[55px] 2xl:w-[61px] h-[35px] sm:h-[40px] md:h-[45px] lg:h-[50px] xl:h-[55px] 2xl:h-[61px];
+  } 
+  .founderbtn{
+    @apply text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] py-[10px] lg:py-[15px] xl:py-[16px] px-[16px] lg:px-[20px] xl:px-[24px]
+  }
+  .tradingbotsbtn{
+    @apply text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] py-[15px] sm:py-[16px] md:py-[18px] lg:py-[20px] xl:py-[22px] 2xl:py-[24px] px-[18px] sm:px-[20px] md:px-[22px] lg:px-[24px] xl:px-[28px] 2xl:px-[32px]
+  }
+  .fastersecure{
+    @apply text-[30px] sm:text-[40px] md:text-[44px] lg:text-[50px] xl:text-[55px] 2xl:text-[62px]
+  }
+  .tradefaster{
+    @apply text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px]
+  }
+  .cryptounderpower{
+    @apply p-[23px] sm:p-[27px] md:p-[32px] lg:p-[38px] xl:p-[43px] 2xl:p-[48px]
+  }
+  .automicbot{
+    @apply text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] mt-[14px] sm:mt-[15px] md:mt-[16px] lg:mt-[18px] xl:mt-[20px] 2xl:mt-[24px] mb-[7px] sm:mb-[7.5px] md:mb-[8px] lg:mb-[9px] xl:mb-[10px] 2xl:mb-[12px]
+  }
+  .mattermaker{
+    @apply text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]
+  }
+  .GetStarted{
+    @apply text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] mt-[25px] sm:mt-[30px] md:mt-[35px] lg:mt-[40px] xl:mt-[45px] 2xl:mt-[48px]
+  }
+  .bntclasdfasfnaefl{
+    @apply text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] py-[15px] sm:py-[16px] md:py-[18px] lg:py-[20px] xl:py-[22px] 2xl:py-[24px] px-[18px] sm:px-[20px] md:px-[22px] lg:px-[24px] xl:px-[28px] 2xl:px-[32px]
+  }
+  .tradingbotslider{
+    @apply py-[30px] sm:py-[40px] lg:py-[60px] xl:py-[80px] 2xl:py-[100px] px-[24px] sm:px-[40px] lg:px-[55px] xl:px-[70px] 2xl:px-[84px]
+  }
+  .Decentralisation{
+    @apply text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px]
+  }
+  .taskpraraph{
+    @apply text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px]
+  }
+  .roadmapphore{
+    @apply text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]
+  }
+  .intitialmvp{
+    @apply text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px]
+  }
+  .pythonprogram{
+    @apply text-[13px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[24px] !leading-[130%] sm:!leading-[36px]
+  }
+  .Purpose{
+    @apply text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] mt-[6px] sm:mt-[12] md:mt-[25px] xl:mt-[32px] mb-[3px] sm:mb-[8px] lg:mb-[12px]
+  }
+  .gpuenables{
+    @apply text-[10px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px] !leading-[13px] sm:!leading-[24px]
+  }
+  .quadtoken{
+    @apply py-[40px] sm:py-[50px] md:py-[60px] lg:py-[70px] xl:py-[80px] 2xl:py-[94px] px-[40px] lg:px-[60px] xl:px-[70px] 2xl:px-[84px]
+  }
+  .tokenquleyd{
+    @apply text-[20px] sm:text-[25px] md:text-[30px] lg:text-[35px] xl:text-[40px] 2xl:text-[48px]
+  }
+  .nextgranent{
+    @apply text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px]
+  }
+}
+
+
+@layer utilities{  
+  .navbar-items-main{
+    border-radius: 96px;
+    /* border: 1px solid #1FFFA9; */
+    background: rgba(223, 255, 243, 0.07);
+    backdrop-filter: blur(50px);
+  }
+  .borderinnavar{
+    width: 100px;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-style: solid ;
+    border-image: linear-gradient(to right, #1FFFA9 100%, #00000021 0%) 1;
+    height: 100%;
+    border-top-left-radius: 61px;
+    border-bottom-left-radius: 61px;
+    padding: 10px;
+  }
+  .Link-manu-bar{
+    color: #FFF;
+    font-family: "Aeonik TRIAL";
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .backgroundimage {
+    background-image: url("./components/image/image2 - Copy.png"), url("./components/image/image2.png");
+    background-position: left, right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain; 
+  }
+  .Link-manu-barss{
+    background: #1FFFA9;
+    border-radius: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .founderbtn{
+    color: #FFF;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Aeonik TRIAL";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 130%; /* 26px */
+    letter-spacing: 0.4px;
+  }
+  .tradingbotsbtn{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Aeonik TRIAL";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%; /* 28.8px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 64px;
+    border-left: 0.5px solid #1FFFA9;
+    border-right: 0.5px solid #1FFFA9;
+    background: rgba(241, 255, 250, 0.04);
+    border-top: none;
+    border-bottom: none;
+  }
+  .fastersecure{
+    color: #FFF;
+    text-align: center;
+    font-family: "Aeonik TRIAL";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 130%; /* 80.6px */
+    letter-spacing: 1.24px;
+  }
+  .tradefaster{
+    color: #D2D2D2;
+    text-align: center;
+    font-family: "Aeonik TRIAL";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%; /* 32px */
+    letter-spacing: 0.4px;
+  }
+  .backgroundimae{
+    background-image: url("./components/image/backgroundimageheroarea.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cryptopower{
+    border-radius: 32px;
+    border: 3.549px solid rgba(32, 255, 169, 0.04);
+    background: linear-gradient(180deg, rgba(31, 255, 169, 0.08) 0%, rgba(31, 255, 169, 0.02) 69.08%);
+    backdrop-filter: blur(8px);
+  }
+  .automicbot{
+    color: #FFF;
+    font-family: "Aeonik TRIAL";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 31.2px */
+    letter-spacing: 0.48px;
+  }
+  .mattermaker{
+    color: #D2D2D2;
+    font-family: "Aeonik TRIAL";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: 0.32px;
+  }
+  .GetStarted{
+    color: #20FFAA;
+    font-family: "Aeonik TRIAL";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 130%; /* 26px */
+    letter-spacing: 0.4px;
+  }
+  .bntclasdfasfnaefl{
+    color: #0A0D0C;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Aeonik TRIAL";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 26px */
+    letter-spacing: 0.4px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 72px;
+    background: #1FFFA9;
+  }
+  .tradingbotslider{
+    border-radius: 32px;
+    border: 3.549px solid rgba(32, 255, 169, 0.04);
+    background: linear-gradient(180deg, rgba(31, 255, 169, 0.08) 0%, rgba(31, 255, 169, 0.02) 69.08%);
+    backdrop-filter: blur(8px);
+  }
+  .mapongsnad{
+    border-radius: 32px;
+    border: 3.549px solid rgba(32, 255, 169, 0.04);
+    background: linear-gradient(180deg, rgba(31, 255, 169, 0.08) 0%, rgba(31, 255, 169, 0.02) 69.08%);
+    backdrop-filter: blur(8px);
+  }
+  .Decentralisation{
+    color: #FFF;
+    font-family: "Aeonik TRIAL";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 41.6px */
+    letter-spacing: 0.64px;
+  }
+  .taskpraraph{
+    color: #D2D2D2;
+    font-family: "Aeonik TRIAL";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 28px */
+    letter-spacing: 0.4px;
+  }
+  .roadmapphore{
+    color: #D2D2D2;
+    text-align: right;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Aeonik TRIAL";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px; /* 225% */
+  }
+  .intitialmvp{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Aeonik TRIAL";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 266.667% */
+  }
+  .pythonprogram{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Aeonik TRIAL";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px; /* 150% */
+  }
+  .Purpose{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Aeonik TRIAL";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 150% */
+  }
+  .gpuenables{
+    color: #D2D2D2;
+    font-family: "Aeonik TRIAL";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 150% */
+  }
+  .backgroundroadmap{
+    background: linear-gradient(290deg, #010302 0%, rgba(1, 3, 2, 0.12) 68.04%, #010302 100%);
+  }
+  .quadtoken{
+    border-radius: 32px;
+    border: 3.549px solid rgba(32, 255, 169, 0.04);
+    background: linear-gradient(180deg, rgba(31, 255, 169, 0.08) 0%, rgba(31, 255, 169, 0.02) 69.08%);
+    backdrop-filter: blur(8px);
+  }
+  .tokenquleyd{
+    color: #FFF;
+    font-family: "Aeonik TRIAL";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 130%; /* 62.4px */
+    letter-spacing: 0.96px;
+  }
+  .nextgranent{
+    color: #D2D2D2;
+    font-family: "Aeonik TRIAL";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%; /* 32px */
+    letter-spacing: 0.4px;
+  }
+  .aicontent{
+    border-radius: 32px;
+    border: 3.549px solid rgba(32, 255, 169, 0.04);
+    background: linear-gradient(180deg, rgba(31, 255, 169, 0.08) 0%, rgba(31, 255, 169, 0.02) 69.08%);
+    backdrop-filter: blur(8px);
+  }
 }
