@@ -27,7 +27,7 @@ const Pagefive = () => {
 </svg>
             <div className='container mx-auto py-[60px] md:py-[70px] lg:py-[90px] xl:py-[120px] 2xl:py-[150px]'>
             <div className='flex justify-center sm:justify-start items-center sm:items-start flex-col gap-[10px] sm:gap-[12px] lg:gap-[16px] mb-[40px] lg:mb-[60px] xl:mb-[70px] 2xl:mb-[84px] '>
-                <button className='tradingbotsbtn'>🔥  Premium Features for a Fair Price</button>
+                <button className='tradingbotsbtn'>🔥  Premium Feassetures for a Fair Price</button>
                 <h2 className='fastersecure'>Get More From Your Portfolio.</h2>
             </div>
             <div className='quadtoken flex justify-between items-center sm:flex-row flex-col relative'>
