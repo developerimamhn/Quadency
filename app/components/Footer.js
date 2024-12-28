@@ -118,7 +118,7 @@ const Footer = () => {
                 
             </header>
             <div className='navbarunderimae'>
-                <Image className='w-full mt-[10px] sm:mt-[20px]' src={image12} alt='' />
+                <Image className='w-full mt-[11px] sm:mt-[20px]' src={image12} alt='' />
             </div>
         </div>
         </div>
