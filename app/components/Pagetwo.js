@@ -2,7 +2,7 @@
 
 import React , { useRef, useState } from 'react';
 import Image from 'next/image';
-import image5 from '../components/image/image5.png';
+import image5 from './image/Frame 5.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
