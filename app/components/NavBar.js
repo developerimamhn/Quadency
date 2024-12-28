@@ -82,8 +82,8 @@ const NavBar = () => {
   </g>
   <path d="M2 1.11933C2 -1.15571 3.84429 -3 6.11933 -3H58.8979C61.1634 -3 63 -1.16341 63 1.10213V1.10213C63 3.65567 60.6536 5.58312 58.1436 5.11351C24.2982 -1.21886 42.5619 -1.20447 6.84243 5.15669C4.33039 5.60405 2 3.6709 2 1.11933V1.11933Z" fill="#1FFFA9"/>
   <defs>
-    <filter id="filter0_f_199_312" x="0" y="-3" width="65" height="74" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter0_f_199_312" x="0" y="-3" width="65" height="74" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+      <feFlood floodOpacity="0" result="BackgroundImageFix"/>
       <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
       <feGaussianBlur stdDeviation="1" result="effect1_foregroundBlur_199_312"/>
     </filter>

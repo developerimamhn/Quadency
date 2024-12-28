@@ -6,13 +6,13 @@ import image8 from '../components/image/image8.png';
 const Pagefore = () => {
     return (
         <div className='relative backgroundroadmap'>
-            <svg className="absolute top-0 left-[20%] z-0 w-[80%]" viewBox="0 0 1161 1134" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className="absolute top-0 left-[20%] z-[2] w-[80%]" viewBox="0 0 1161 1134" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_f_1_8355)">
 <ellipse cx="580.5" cy="474.5" rx="80.5" ry="159.5" fill="#1FFFA9"/>
 </g>
 <defs>
-<filter id="filter0_f_1_8355" x="0" y="-185" width="1161" height="1319" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="filter0_f_1_8355" x="0" y="-185" width="1161" height="1319" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_1_8355"/>
 </filter>
@@ -26,7 +26,7 @@ const Pagefore = () => {
                     <p className='text-center tradefaster'>Establish a functional prototype that allows GPU owners to offer their computing<br className='hidden sm:block'/> power and users to execute tasks using available GPU resources.</p>
                 </div>
                 <div className=''>
-                    <div className='flex justify-start items-start h-full  gap-[24px] lg:gap-[32px] relative'>
+                    <div className='flex justify-start items-start h-full  gap-[24px] lg:gap-[32px] relative z-[1]'>
                     <Image className='absolute left-0 top-0 z-[-1] hidden lg:block' src={image8} alt=""/>
                         <div className='flex justify-start flex-col h-full flex-1 gap-[60px] sm:gap-[138px] 2xl:gap-[138px]' >
                             <div className='flex justify-end items-end flex-col'>

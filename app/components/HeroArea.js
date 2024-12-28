@@ -1,14 +1,24 @@
 
 import React from 'react';
+import Image from 'next/image';
+import image14 from './image/image14.png';
 
 const HeroArea = () => {
     return (
         <div>
             <div className='container mx-auto pt-[70px] sm:pt-[110px] lg:pt-[140px] xl:pt-[170px] 2xl:pt-[194px] px-[24px] sm:px-0'>
-                <div className='flex justify-center  items-center flex-col gap-[16px] sm:gap-[18px] lg:gap-[24px]'>
+                <div className='flex justify-center  items-center flex-col gap-[16px] sm:gap-[18px] lg:gap-[24px] relative'>
+                    <Image className='absolute top-[10%] left-[50%] translate-x-[-50%] w-full z-10'   src={image14} src=''/>
                     <button className='tradingbotsbtn'>🚀  Trading Bots</button>
                     <h2 className='fastersecure text-center'>The Fastest and Secure <br/> AI Trading Assistant. </h2>
                     <p className='text-center tradefaster'>Trade faster and smarter with our secure AI bots. Maximize your <br className='hidden sm:block'/> investments with real-time insights and automation.</p>
+
+                    <div className='flex justify-center gap-[16px] sm:gap-[18px] lg:gap-[24px] mt-[20px] lg:mt-[25px] xl:mt-[28px] 2xl:mt-[32px]'>
+                    <button className=' bntclasdfasfnaefl gap-[8px] sm:gap-[12px] lg:gap-[16px]'>Try Free Trial <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path d="M8.75 2.625L13.125 7L8.75 11.375" stroke="black" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M0.875 7H13.125" stroke="black" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg></button>
+                    </div>
                 </div>
             </div>
             <div className='overflow-hidden w-full 2xl:w-full mt-[-40px]'>
